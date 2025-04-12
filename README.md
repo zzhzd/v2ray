@@ -7,7 +7,8 @@
 
 3、搭建代码：
 
-    bash <(curl -s -L https://git.io/v2ray-setup.sh)
+    apt update -y && apt install -y curl && apt install -y socat #更新服务器
+    bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh) 搭建代码
 
 4、放行端口
 
